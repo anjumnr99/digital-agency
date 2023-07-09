@@ -2,4 +2,61 @@
     margin: 0px;
     padding: 0px;
 }
+.primary-btn{
+    padding: 15px 30px;
+    font-weight: normal;
+    font-size: 25px;
+    border: 0;
 
+    
+}
+.orange-latter{
+    color: red;
+}
+ .orange-btn{
+    background-color: red;
+    color: white;
+    
+ }
+
+nav{
+    display: flex;
+    background-color: lightgray;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.banner{
+    height: 100vh;
+    background-image: url('/asset/image/background.jpg'),
+    linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+}
+.banner-info{
+    color: white;
+}
+
+.banner-info p{
+   margin-top: 10px;
+   margin-bottom: 10px;
+   font-size: 25px;
+   
+}
+.banner-info h1{
+    font-size:80px ;
+}
