@@ -35,7 +35,7 @@ nav{
 }
 .banner{
     height: 100vh;
-    background-image: url('/asset/image/background.jpg'),
+    background-image: url('../asset/image/background.jpg'),
     linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8));
     background-blend-mode: overlay;
     background-repeat: no-repeat;
