@@ -3,9 +3,9 @@
     padding: 0px;
 }
 .primary-btn{
-    padding: 15px 30px;
+    padding: 10px 15px;
     font-weight: normal;
-    font-size: 25px;
+    font-size: 15px;
     border: 0;
 
     
@@ -59,4 +59,138 @@ nav{
 }
 .banner-info h1{
     font-size:80px ;
+}
+
+.discription{
+    height: 100vh;
+    background-image: url(../asset/image/footer-bg.png),linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.8));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+}
+.icon{
+    width: 80px;
+}
+.images{
+    height: 100px;
+    width: 100px;
+    padding: 50px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+} 
+.discription-info p{
+    
+    width: 50%;
+}
+.discription-info ol{
+    margin-left: 16px;
+}
+.row{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+.authors-pic{
+    width: 85px;
+    height: 85px;
+    border-radius: 50px;
+}
+.author-identity{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-right: 2px solid red;
+    padding-right: 25px;
+}
+.author-profile{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+}
+.phone-icon{
+    width: 70px;
+    height: 70px;
+    
+}
+.contact-number{
+    font-size: small;
+}
+.contact-information{
+    width: 80%;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 10%;
+    padding: 10px;
+    background-color: rgba(221, 42, 42, 0.9);
+    margin-top: -55px;
+    border-radius: 20px;
+
+}
+.contact-details{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.cards-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.cards{
+    width: 270px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 4px 8px 4px gray;
+}
+.card-img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+   
+}
+.card-discription{
+    width:100%;
+    margin-top: 20px;
+    
+}
+
+.card-discription h2{
+    margin-top: 20px;
+    color: rgb(66, 66, 66);
+}
+.card-discription p{
+    margin-top: 10px;
+    color: rgb(107, 107, 107);
+}
+.bolg-news-section h1{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.bolg-news-section p {
+    text-align: center;
+    font-size: large;
+    margin-bottom: 55px;
+}
+.bolg-news-section{
+    height: 90vh;
+    width: auto;
+    display: block;
+    align-items: center;
+    justify-content: center;
 }
